@@ -5,7 +5,78 @@
     scroll-behavior: smooth;
 }
 
-.header {
+body {
+    font-family: Verdana, sans-serif;
+    background-image: url('/assets/interlagos-senna-kart-track.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav {
+    color:#FFFFFA;
     position: sticky;
     position: -webkit-sticky;
+    text-shadow: 
+    #080705 0px 0px 2px,
+    #080705 0px 0px 2px,
+    #080705 0px 0px 2px,
+    #080705 0px 0px 2px,
+    #080705 0px 0px 2px,
+    #080705 0px 0px 2px;
+    -webkit-font-smoothing: antialiased;
+}
+
+a:hover {
+    color: #912F40 !important;
+}
+
+.splash {
+    height: 100vh;
+    max-width: 100%;
+}
+
+.subject {
+    margin-top: 30vh;
+    left: 25vw;
+}
+
+.title {
+    color: #FFFFFA;
+    font-size: 72px;
+    text-shadow: 
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.subtitle {
+    color:#FFFFFA;
+    text-shadow: 
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.about {
+    background-color: #702632;
+    color: #FFFFFA;
+}
+
+.contact {
+    background-color: #FFFFFA;
+    color: #40434E;
+}
+
+.email, .phone, .github, .linkedin {
+    width: 20px;
 }

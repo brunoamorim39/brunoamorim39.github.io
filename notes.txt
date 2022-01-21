@@ -1,0 +1,6 @@
+Color Palette:
+#080705 - Rich Black FOGRA 39
+#40434E - Charcoal
+#702632 - Wine
+#912F40 - Red Violet Color Wheel
+#FFFFFA - Baby Powder
