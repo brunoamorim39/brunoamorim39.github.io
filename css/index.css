@@ -40,11 +40,17 @@ a:hover {
 .subject {
     margin-top: 30vh;
     left: 25vw;
+
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
 }
 
 .title {
     color: #FFFFFA;
     font-size: 72px;
+    
     text-shadow: 
     #080705 0px 0px 1px,
     #080705 0px 0px 1px,
@@ -57,6 +63,9 @@ a:hover {
 
 .subtitle {
     color:#FFFFFA;
+
+    margin-top: -24px;
+
     text-shadow: 
     #080705 0px 0px 1px,
     #080705 0px 0px 1px,
@@ -65,6 +74,14 @@ a:hover {
     #080705 0px 0px 1px,
     #080705 0px 0px 1px;
     -webkit-font-smoothing: antialiased;
+}
+
+.arrow-down {
+    width: 48px;
+}
+
+.arrow-down:hover {
+    cursor: pointer;
 }
 
 .about {
@@ -79,4 +96,40 @@ a:hover {
 
 .email, .phone, .github, .linkedin {
     width: 20px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
