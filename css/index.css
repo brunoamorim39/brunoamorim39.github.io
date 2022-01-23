@@ -38,8 +38,8 @@ a:hover {
 }
 
 .subject {
-    margin-top: 30vh;
-    left: 25vw;
+    margin-top: 32.5vh;
+    left: 21vw;
 
     animation: fadein 1.5s;
     -moz-animation: fadein 1.5s;
@@ -87,6 +87,14 @@ a:hover {
 .about {
     background-color: #702632;
     color: #FFFFFA;
+}
+
+.resume-link:hover {
+    color: #40434E !important;
+}
+
+.my-photo {
+    height: 256px;
 }
 
 .contact {
