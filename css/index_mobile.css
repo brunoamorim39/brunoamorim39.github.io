@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-image: url('/assets/interlagos-senna-kart-track.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav {
+    color:#FFFFFA;
+    position: sticky;
+    position: -webkit-sticky;
+    justify-content: space-evenly !important;
+    text-shadow: 
+    #080705 0px 0px 2px,
+    #080705 0px 0px 2px,
+    #080705 0px 0px 2px,
+    #080705 0px 0px 2px,
+    #080705 0px 0px 2px,
+    #080705 0px 0px 2px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav > a {
+    margin: 0 !important;
+}
+
+.splash {
+    height: 100vh;
+    max-width: 100%;
+}
+
+.subject {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw !important;
+    margin-top: 30vh;
+    left: 0vw;
+
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
+}
+
+.title {
+    color: #FFFFFA;
+    font-size: 72px;
+    text-align: center;
+    
+    text-shadow: 
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.subtitle {
+    color:#FFFFFA;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+    text-shadow: 
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px,
+    #080705 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.arrow-down {
+    width: 48px;
+}
+
+.about {
+    background-color: #702632;
+    color: #FFFFFA;
+}
+
+.about-content {
+    flex-direction: column-reverse;
+}
+
+.about-content > div {
+    width: 100vw;
+    padding-left: 8.5vw;
+    padding-right: 8.5vw;
+}
+
+.about-title {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.my-photo {
+    height: 128px;
+}
+
+.contact {
+    background-color: #FFFFFA;
+    color: #40434E;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.email, .phone, .github, .linkedin {
+    width: 20px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

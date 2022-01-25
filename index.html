@@ -4,7 +4,9 @@
     <title>Bruno Amorim</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 767px)" href="css/index_mobile.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 1199px)" href="css/index_tablet.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" href="css/index_desktop.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="48x48" href="assets/faivcon_48x48.png">
@@ -13,14 +15,14 @@
 </head>
 <body>
     <div class="splash">
-        <div class="nav justify-content-end fs-5 px-5 py-4">
+        <div class="nav fs-5 px-5 py-4">
             <a class="text-reset text-decoration-none me-3" href="#about">About</a>
             <a class="text-reset text-decoration-none mx-3" href="#contact">Contact</a>
             <a class="text-reset text-decoration-none ms-3 me-5" href="resume.pdf">Resume</a>
         </div>
-        <div class="subject animated w-50 position-absolute ms-0">
-            <div class="title text-start fw-bold">Bruno Amorim</div>
-            <div class="subtitle text-start fs-2">From Computers to Cars - A Tinkerer at Heart.</div>
+        <div class="subject animated position-absolute ms-0">
+            <div class="title fw-bold">Bruno Amorim</div>
+            <div class="subtitle fs-2">From Computers to Cars - A Tinkerer at Heart.</div>
         </div>
         <div class="arrow-container position-absolute top-100 start-50 translate-middle pb-5">
             <img class="arrow-down" src="assets/caret-down.png" onclick="page_shift()">
@@ -28,9 +30,9 @@
     </div>
     <div id="about" class="about pt-3 pb-4">
         <div class="container">
-            <div class="row d-flex justify-content-center">
+            <div class="about-content row d-flex justify-content-center">
                 <div class="col-6">
-                    <div class="fs-1 mb-3">About Me</div>
+                    <div class="about-title fs-1 mb-3">About Me</div>
                     <div class="fs-6">
                         Hey there. My name is Bruno Amorim. I am a recent graduate from Purdue University (May 2021) with a Bachelor of Science in Mechanical Engineering with a Minor in Business Management. I am a self-taught programmer, having started my journey in late 2020, and have found it to be something I deeply enjoy. Having worked on projects both large and small has allowed me to develop my skills quickly and taught me to be resourceful in solving problems.
                     </div>
@@ -53,7 +55,7 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-10">
-                    <div class="fs-1 mb-3">Contact</div>
+                    <div class="contact-title fs-1 mb-3">Contact</div>
                     <div class="fs-6 my-2">
                         <a class="text-reset text-decoration-none" href="mailto:me@brunoamorim.net">
                             <img class="email align-bottom me-2" src="assets/envelope-fill.svg">
